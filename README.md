@@ -5,7 +5,7 @@ Meme has become an essential element of the current internet era. Meme containin
 
 In this project, we aim to use the [Hateful Memes dataset](https://hatefulmemeschallenge.com/#about) provided by Facebook AI to build a machine learning model that can detect hateful speech in memes. When we view a meme, it is impossible to understand its true meaning by looking separately at only its image or text. It is necessary to combine the information in both modalities to comprehend the meme's true interpretation. Therefore, the purpose of this work is to explore multiple approaches to implement a multi-modal convolution neural network that can classify a meme as "hateful" or "not hateful".
 
-![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/demo/theme.jpg)
+![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/theme.jpg)
 
 ### 2. Data
 The official web page for the dataset: [link](https://hatefulmemeschallenge.com/#about)
@@ -22,14 +22,19 @@ This dataset contains pairs of text & image with the following statistics:
 I performed two types of models: Unimodal and Multimodal. While the unimodal models use only the image features, the multimodal models combine both the image and text features to detect hate speech in memes.
 
 **Model: Baseline Unimodal 1**
+![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/model_architecture_images/baseline_unimodal1.png)
 
 **Model: Baseline Unimodal 2**
+![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/model_architecture_images/baseline_unimodal2.png)
 
 **Model: Baseline Multimodal 1**
+![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/model_architecture_images/baseline_multimodal1.png)
 
 **Model: Baseline Multimodal 2**
+![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/model_architecture_images/baseline_multimodal2.png)
 
 **Model: Text Image Multimodal**
+![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/model_architecture_images/textimage.png)
 
 | Model | Description | Development Accuracy |
 | ----------- | ----------- | ----------- |
