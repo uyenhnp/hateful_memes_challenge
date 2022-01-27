@@ -21,20 +21,22 @@ This dataset contains pairs of text & image with the following statistics:
 ### 3. Models
 I performed two types of models: Unimodal and Multimodal. While the unimodal models use only the image features, the multimodal models combine both the image and text features to detect hate speech in memes.
 
-**Model: Baseline Unimodal 1**
+#### Model: Baseline Unimodal
 ![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/model_architecture_images/baseline_unimodal1.png)
 
-**Model: Baseline Unimodal 2**
+#### Model: Baseline Unimodal 2
 ![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/model_architecture_images/baseline_unimodal2.png)
 
-**Model: Baseline Multimodal 1**
+#### Model: Baseline Multimodal 1
 ![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/model_architecture_images/baseline_multimodal1.png)
 
-**Model: Baseline Multimodal 2**
+#### Model: Baseline Multimodal 2
 ![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/model_architecture_images/baseline_multimodal2.png)
 
-**Model: Text Image Multimodal**
+#### Model: Text Image Multimodal
 ![Example](https://github.com/uyenhnp/hateful_memes_challenge/blob/master/model_architecture_images/textimage.png)
+
+#### Model Performance
 
 | Model | Description | Development Accuracy |
 | ----------- | ----------- | ----------- |
